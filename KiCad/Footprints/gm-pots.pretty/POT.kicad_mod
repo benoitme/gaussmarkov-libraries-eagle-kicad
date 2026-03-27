@@ -1,0 +1,153 @@
+(footprint "POT"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Potentiometer\n\n3 terminals for circuit board for wires connecting to 3 lugs of pot off-board")
+	(property "Reference" "REF**"
+		(at -2.54 -1.1176 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "e2353742-b82b-4e48-9c0a-bdb532f25a84")
+		(effects
+			(font
+				(size 1.1176 1.1176)
+				(thickness 0.1524)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "POT"
+		(at -2.54 3.175 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "b502d96f-42f2-4e92-b647-20c7efb86a1e")
+		(effects
+			(font
+				(size 1.1176 1.1176)
+				(thickness 0.1524)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1cd20e4d-68bd-45fe-b0fd-be4dce81833b")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7c3ad823-5fb3-4ae8-aeb2-1ce2e683695d")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -3.556 -1.016)
+		(end 3.556 -1.016)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "995ec212-d25b-43a9-a409-93d022e3a274")
+	)
+	(fp_line
+		(start -3.556 1.016)
+		(end -3.556 -1.016)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "84e929c7-2243-48f3-94cb-39037d0bf592")
+	)
+	(fp_line
+		(start 3.556 -1.016)
+		(end 3.556 1.016)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "014e1b73-4365-42b2-9ca6-20a479c25673")
+	)
+	(fp_line
+		(start 3.556 1.016)
+		(end -3.556 1.016)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6d67b8af-6b11-4ceb-afe9-a5fd4f2470a5")
+	)
+	(fp_text user "3"
+		(at -2.032 1.778 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "a06f0359-33ab-4b8f-81ee-64a74b4c13f1")
+		(effects
+			(font
+				(size 0.747776 0.747776)
+				(thickness 0.065024)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "1"
+		(at 1.524 1.778 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "a4895478-c87d-4130-82fb-ea53330e0092")
+		(effects
+			(font
+				(size 0.747776 0.747776)
+				(thickness 0.065024)
+			)
+			(justify left bottom)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 2.54 0 90)
+		(size 1.208 1.208)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "7ef691fc-3f41-4417-afe9-6e346726a2af")
+	)
+	(pad "2" thru_hole circle
+		(at 0 0 90)
+		(size 1.208 1.208)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "f18fdb61-90f3-452c-9300-df7451fba807")
+	)
+	(pad "3" thru_hole circle
+		(at -2.54 0 90)
+		(size 1.208 1.208)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "a91d40d4-f134-4980-b0fb-254e8ab98f19")
+	)
+	(embedded_fonts no)
+)

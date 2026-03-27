@@ -1,0 +1,64 @@
+(footprint "LONG"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Long Pad\n\n• drill diameter 0.7 mm")
+	(property "Reference" "REF**"
+		(at 1.905 0.635 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "3b4ab896-f128-443d-86e3-e249c86a2cfa")
+		(effects
+			(font
+				(size 1.1176 1.1176)
+				(thickness 0.1524)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "a2d63949-d146-4bba-91ea-b5fd49fc3c76")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "768c9e17-3e89-4fff-ad9f-3dfbe0fbc021")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "262cdc1e-c552-4343-aaf3-4e45e85586ae")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(duplicate_pad_numbers_are_jumpers no)
+	(pad "1" thru_hole oval
+		(at 0 0)
+		(size 2.416 1.208)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "e3f10391-9b9e-4633-addd-fee6e486a236")
+	)
+	(embedded_fonts no)
+)

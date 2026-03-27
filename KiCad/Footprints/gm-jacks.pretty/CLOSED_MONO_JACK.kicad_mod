@@ -1,0 +1,253 @@
+(footprint "CLOSED_MONO_JACK"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "JACK\n\nClosed mono 1/4\" phone jack.")
+	(property "Reference" "REF**"
+		(at -7.112 3.048 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "dec8d03e-d88d-4141-9d03-fe1e00b7ac80")
+		(effects
+			(font
+				(size 1.1176 1.1176)
+				(thickness 0.1524)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "f48b073e-e1e2-4386-876c-99e156bd7235")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "eadcbcb8-7e78-4386-9e23-0719ac488527")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "71820cf0-239e-449e-984e-dfebed8e5feb")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -8.89 -3.81)
+		(end -6.35 -3.81)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e7222685-ad43-4295-9960-b89083edf34a")
+	)
+	(fp_line
+		(start -8.89 3.81)
+		(end -8.89 -3.81)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "96d75d85-91a2-4c95-863a-678c0f48e8e3")
+	)
+	(fp_line
+		(start -6.35 -3.81)
+		(end -6.35 3.81)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cc84407f-cd39-442f-98f8-85b239e1ee54")
+	)
+	(fp_line
+		(start -6.35 -3.81)
+		(end 6.985 -3.81)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "80929a36-9889-46fd-bba4-bbadad63a252")
+	)
+	(fp_line
+		(start -6.35 3.81)
+		(end -8.89 3.81)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "68accd06-ce31-4f38-8e60-cadb8268202e")
+	)
+	(fp_line
+		(start 0 3.81)
+		(end 1.27 2.54)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "755e3264-0683-447e-b576-eb88166608b1")
+	)
+	(fp_line
+		(start 1.27 2.54)
+		(end 2.54 3.81)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3a56872c-335a-4d30-b776-be6611ce0ee4")
+	)
+	(fp_line
+		(start 2.54 3.81)
+		(end 5.08 3.81)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ad0aa54d-20ad-4fa3-acac-92ca69f3d629")
+	)
+	(fp_line
+		(start 3.81 2.54)
+		(end 5.08 3.81)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "418af169-e47e-40da-b9b9-bb0b2784c929")
+	)
+	(fp_line
+		(start 5.08 1.27)
+		(end 6.985 1.27)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ca130469-682a-4d7b-9746-162271bf3223")
+	)
+	(fp_line
+		(start 5.08 3.81)
+		(end 5.08 1.27)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "db720b1b-c566-49e2-b122-1f19f9eab86d")
+	)
+	(fp_line
+		(start 5.08 3.81)
+		(end 6.35 2.54)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cf17d371-5a5d-4016-bbca-79d56d9d0774")
+	)
+	(fp_line
+		(start 5.08 3.81)
+		(end 6.985 3.81)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e6758364-5098-461b-93fc-3f9fe96c69f3")
+	)
+	(fp_text user "CONNECT"
+		(at -3.81 1.27 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "975f620e-9190-4d89-918c-99111938c32c")
+		(effects
+			(font
+				(size 1.1684 1.1684)
+				(thickness 0.1016)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "TIP"
+		(at -3.175 3.683 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "3c688d93-808e-49de-b21f-a79d9012c391")
+		(effects
+			(font
+				(size 1.1176 1.1176)
+				(thickness 0.1524)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "SLEEVE"
+		(at -1.27 -4.572 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "0b7f6e02-5390-4b22-847f-66ba958fa002")
+		(effects
+			(font
+				(size 1.1176 1.1176)
+				(thickness 0.1524)
+			)
+			(justify left bottom)
+		)
+	)
+	(pad "CONNECT" thru_hole circle
+		(at 7.62 1.27)
+		(size 1.208 1.208)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "f20f5de1-fe7a-4e0b-a7fe-1c1e2447b46a")
+	)
+	(pad "SLEEVE" thru_hole circle
+		(at 7.62 -3.81)
+		(size 1.208 1.208)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "cdd4313f-e98e-49d4-af37-ba30b3d46aec")
+	)
+	(pad "TIP" thru_hole circle
+		(at 7.62 3.81)
+		(size 1.208 1.208)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "b46e622c-b23d-4fe0-baeb-bfb2ae411868")
+	)
+	(embedded_fonts no)
+)

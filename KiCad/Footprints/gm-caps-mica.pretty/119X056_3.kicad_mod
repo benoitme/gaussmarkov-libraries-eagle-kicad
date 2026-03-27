@@ -1,0 +1,181 @@
+(footprint "119X056_3"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "11.9mm x 5.6mm, 0.3\" pad spacing\n\n• Cornell Dubilier Electronics standard-dipped CD10: 1 - 250pF, 500Vdc\n• slightly smaller for smaller capacitances: 9.1mm x 4.8mm  for 1 - 24pF\n• CD15s are longer: 11.4 - 11.9mm and go up to 510pF")
+	(property "Reference" "REF**"
+		(at -1.9922 -0.8318 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "8352e77b-29b7-48f2-ac1a-332b70ed133a")
+		(effects
+			(font
+				(size 1.1176 1.1176)
+				(thickness 0.1524)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "119X056_3"
+		(at -2.2416 1.9702 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "8b09b0b1-7015-4dfd-924a-910dd76d86fd")
+		(effects
+			(font
+				(size 1.1176 1.1176)
+				(thickness 0.1524)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "450e1717-68e1-48ec-b7ca-38c00555d661")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "48310563-abd2-45ba-9170-db0028505e87")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -5.95 0.8)
+		(end -5.95 -0.8)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8c5a5292-94de-456e-bbde-9fca5c0515c2")
+	)
+	(fp_line
+		(start -3.95 -2.8)
+		(end 3.95 -2.8)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "29523653-2cfa-4257-9a49-f73e8c026f3e")
+	)
+	(fp_line
+		(start 3.95 2.8)
+		(end -3.95 2.8)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "63407756-4ef5-4466-825d-d91c79c95363")
+	)
+	(fp_line
+		(start 5.95 -0.8)
+		(end 5.95 0.8)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bbfbc68e-cc4c-402e-8950-d28eddc6682e")
+	)
+	(fp_arc
+		(start -5.95 -0.8)
+		(mid -5.364213 -2.214213)
+		(end -3.949999 -2.799999)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "23ad0dfd-55bb-4bcb-a013-e02aa806caed")
+	)
+	(fp_arc
+		(start -3.95 2.8)
+		(mid -5.364214 2.214213)
+		(end -5.950001 0.799999)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "26f31956-a5ef-4926-8297-d2dc0270aed3")
+	)
+	(fp_arc
+		(start 3.95 -2.8)
+		(mid 5.364214 -2.214213)
+		(end 5.950001 -0.799999)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2ca00dc0-6816-46d2-a101-f4ce0b53eb57")
+	)
+	(fp_arc
+		(start 5.95 0.8)
+		(mid 5.364213 2.214213)
+		(end 3.949999 2.799999)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "90154e68-36dc-47b5-a0b4-321a362b089e")
+	)
+	(fp_line
+		(start -2.95 0)
+		(end -3.8054 0)
+		(stroke
+			(width 0.6096)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6eab54a4-46bd-4a81-b5aa-c4a898f5ae0c")
+	)
+	(fp_line
+		(start 2.95 0)
+		(end 3.8254 0)
+		(stroke
+			(width 0.6096)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4b79e59e-4851-4292-8d9d-fc5137cc3912")
+	)
+	(pad "1" thru_hole circle
+		(at -3.81 0)
+		(size 1.208 1.208)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "781bb625-fb31-47fc-b533-719fc9b44919")
+	)
+	(pad "2" thru_hole circle
+		(at 3.81 0)
+		(size 1.208 1.208)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "cba06666-064b-4ff5-aed0-1bf83e36b938")
+	)
+	(embedded_fonts no)
+)
