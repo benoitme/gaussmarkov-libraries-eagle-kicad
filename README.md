@@ -8,13 +8,13 @@ That is why I have create this version that modernizes these libraries by conver
 
 ---
 
-## 🛠 Key Features
+## Key Features
 - **Native KiCad Format**: No "Read-only" warnings. Fully editable and optimized for modern KiCad versions.
 - **Pre-Linked Components**: Symbols are already mapped to their correct footprints, no manual linking required.
 - **Cleaned Up Graphics**: Removed messy legacy text and documentation overlays for a cleaner schematic view for some components. To be updated in future versions.
 - **Full Set**: Includes all classic categories (Pots, Jacks, Caps, Semiconductors, Switches, etc.).
 
-## 🚀 How to Install
+## How to Install
 
 ### 1. Add Footprints (PCB)
 1. Download or Clone this repository.
@@ -29,7 +29,7 @@ That is why I have create this version that modernizes these libraries by conver
 
 ---
 
-## 📁 Included Libraries
+## Included Libraries
 
 - **gm-pots**: 16mm Alpha pots, Dual ganged, and various trimpots styles.
 - **gm-caps-ceramic**: Ceramic disc capacitors with multiple lead spacing options.
@@ -53,7 +53,7 @@ That is why I have create this version that modernizes these libraries by conver
 
 ---
 
-## ⚖️ Credits & License
+## Credits & License
 - **Original Designs**: All credits to the original creator, **Gauss Markov**.
 - **Modernization & Conversion**: Native KiCad conversion and XML cleanup performed by **Coda Effects** ([coda-effects.com](https://www.coda-effects.com)).
 - **Legacy Preservation**: This project aims to keep these essential DIY resources alive and compatible with modern EDA tools.
